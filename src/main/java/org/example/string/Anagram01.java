@@ -17,7 +17,6 @@ public class Anagram01 {
         String secondString = "geeksgeeksfor";
         String sortedFirstString = sortString(firstString);
         String sortedSecondString = sortString(secondString);
-
         System.out.println("Two strings are anagrams?(Approach 1) : " + sortedFirstString.equals(sortedSecondString));
 
         //Method 2 - Count the number of characters in both the Strings. If they match then they are Anagrams else not.
